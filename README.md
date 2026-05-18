@@ -1,25 +1,133 @@
-Review the two input formats
+# Deloitte Virtual Internship – Task 1
 
-Open data-1.json and data-2.json. These represent the same telemetry message in two different formats.
+## Project Overview
 
-Review the target unified format
+This project focuses on converting telemetry data from two different JSON input formats into a single unified output format.
 
-Open data-result.json. Your code should convert both input formats into this unified output format.
+The task demonstrates:
+- JSON data processing
+- Data transformation
+- Python function implementation
+- Unit testing
 
-Implement the conversion functions
+---
 
-Open main.py. Find the two functions marked with IMPLEMENT: and complete them:
+# Project Structure
 
+```bash
+task1/
+│
+├── data-1.json
+├── data-2.json
+├── data-result.json
+├── main.py
+└── README.md
+```
+
+---
+
+# Understanding the Input Formats
+
+## Input Files
+
+Open the following files:
+
+- `data-1.json`
+- `data-2.json`
+
+Both files contain the same telemetry information, but each uses a different JSON structure.
+
+Your goal is to normalize both formats into a common structure.
+
+---
+
+# Target Unified Format
+
+Open:
+
+```bash
+data-result.json
+```
+
+This file contains the expected unified output format.
+
+Your conversion functions should produce data matching this structure exactly.
+
+---
+
+# Tasks to Complete
+
+Open:
+
+```bash
+main.py
+```
+
+Locate the following functions marked with `IMPLEMENT:`:
+
+```python
 convertFromFormat1(jsonObject)
 convertFromFormat2(jsonObject)
-Run the automated tests
+```
 
-Run the project to execute the included unit tests. A successful run will show that all tests passed (no failures).
+Complete both functions so they correctly transform the input data into the target format.
 
-Locally: run python main.py from your terminal (Python 3 required).
+---
 
-Online IDE (optional): upload the project files into any online Python editor and run main.py.
+# Running the Project
 
-Ignore non-test console noise
+## Run Locally
 
-Focus on the test results. The important outcome is that all unit tests pass.
+Make sure Python 3 is installed.
+
+Execute the following command in the terminal:
+
+```bash
+python main.py
+```
+
+---
+
+## Online IDE (Optional)
+
+You may also:
+- upload the project files into any online Python editor
+- run `main.py`
+
+Examples:
+- Replit
+- Programiz
+- OnlineGDB
+
+---
+
+# Running the Tests
+
+The project includes automated unit tests.
+
+A successful implementation will show:
+
+```text
+All tests passed
+```
+
+with no failures.
+
+---
+
+# Notes
+
+- Ignore unrelated console output or warnings.
+- Focus only on the unit test results.
+- Ensure both conversion functions return the exact expected structure.
+
+---
+
+# Skills Demonstrated
+
+- Python programming
+- JSON parsing
+- Data transformation
+- Unit testing
+- Problem solving
+- Clean code practices
